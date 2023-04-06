@@ -1,0 +1,735 @@
+PODS:
+  - ACEDrawingView (2.2.1)
+  - AppAuth/Core (1.2.0)
+  - AppAuth/ExternalUserAgent (1.2.0)
+  - ArticleKit (4.35.0):
+    - ArticleKit/Core (= 4.35.0)
+    - ArticleKit/FinanceQuoteModule (= 4.35.0)
+  - ArticleKit/Comments (4.35.0):
+    - ArticleKit/Core
+    - VerizonMediaCommentKit (~> 1.17)
+  - ArticleKit/Core (4.35.0):
+    - BCookieProvider (~> 4.11)
+    - FujiDesignCommon/Aesthetics (< 4, >= 2.24)
+    - FujiDesignCommon/VectorGraphics (< 4, >= 2.24)
+    - MultiplexStream/Plugin/NCPData (~> 11.6)
+    - OathAnalytics (~> 5.4)
+    - SDWebImage (< 6.0, >= 4.0)
+    - SponsoredMomentsAds (< 7.0, >= 6.22)
+    - VerizonMediaModuleKit (~> 1.2)
+    - VerizonMediaRelatedStoriesModule (~> 1.10)
+    - VerizonMediaSettingsModule (~> 1.4)
+    - VerizonMediaVideoKit (< 3.0, >= 1.0)
+    - YahooVideo (< 8.0, >= 7.2.3)
+    - YAppManagement/Config (< 5.0, >= 4.7.1)
+    - YWebViewJavascriptBridge (>= 7.0.1)
+  - ArticleKit/FinanceQuoteModule (4.35.0):
+    - VerizonMediaFinanceQuoteModule/PillTickerView (~> 1.9)
+  - BCookieProvider (4.15.0):
+    - OathPrivacy (< 4.0, >= 2.13)
+    - YActor/SDK (~> 1.2)
+  - ComScore (6.10.0):
+    - ComScore/Dynamic (= 6.10.0)
+  - ComScore/Dynamic (6.10.0)
+  - DBGHTMLEntities (1.2.0)
+  - DRCircularProgress (1.0.3)
+  - ECBaseWebView (4.7.0):
+    - ECBaseWebView/Core (= 4.7.0)
+  - ECBaseWebView/Core (4.7.0)
+  - EmbraceIO (5.16.3)
+  - Feedback (1.20.0):
+    - Feedback/Core (= 1.20.0)
+  - Feedback/Core (1.20.0):
+    - ACEDrawingView (~> 2.0)
+    - FujiDesignCommon/Aesthetics (< 4, >= 2.28)
+    - FujiDesignCommon/VectorGraphics/PDF (< 4, >= 2.28)
+    - FujiDesignCommon/Views/ActivityIndicator (< 4, >= 2.28)
+    - FujiDesignCommon/Views/IconButton (< 4, >= 2.28)
+    - JRSwizzle (~> 1.0)
+    - OathPrivacy (< 4.0, >= 2.8)
+    - Reachability (~> 3.1)
+    - YLog (~> 0.1)
+  - FGUserDefaultsInspector (1.1)
+  - FujiDesignCommon (3.12.0):
+    - FujiDesignCommon/All (= 3.12.0)
+  - FujiDesignCommon/Aesthetics (3.12.0):
+    - FujiDesignCommon/Utils
+  - FujiDesignCommon/All (3.12.0):
+    - FujiDesignCommon/Aesthetics
+    - FujiDesignCommon/VectorGraphics
+    - FujiDesignCommon/Views
+  - FujiDesignCommon/Utils (3.12.0)
+  - FujiDesignCommon/VectorGraphics (3.12.0):
+    - FujiDesignCommon/VectorGraphics/CGPath (= 3.12.0)
+    - FujiDesignCommon/VectorGraphics/Common (= 3.12.0)
+    - FujiDesignCommon/VectorGraphics/PDF (= 3.12.0)
+  - FujiDesignCommon/VectorGraphics/CGPath (3.12.0):
+    - FujiDesignCommon/VectorGraphics/Common
+  - FujiDesignCommon/VectorGraphics/Common (3.12.0)
+  - FujiDesignCommon/VectorGraphics/PDF (3.12.0):
+    - FujiDesignCommon/Utils
+    - FujiDesignCommon/VectorGraphics/Common
+  - FujiDesignCommon/Views (3.12.0):
+    - FujiDesignCommon/Views/ActivityIndicator (= 3.12.0)
+    - FujiDesignCommon/Views/IconButton (= 3.12.0)
+    - FujiDesignCommon/Views/Toast (= 3.12.0)
+  - FujiDesignCommon/Views/ActivityIndicator (3.12.0):
+    - FujiDesignCommon/Utils
+  - FujiDesignCommon/Views/IconButton (3.12.0):
+    - FujiDesignCommon/VectorGraphics/CGPath
+  - FujiDesignCommon/Views/Toast (3.12.0):
+    - FujiDesignCommon/Aesthetics
+    - FujiDesignCommon/Utils
+    - FujiDesignCommon/Views/IconButton
+  - iOSSnapshotTestCase (6.2.0):
+    - iOSSnapshotTestCase/SwiftSupport (= 6.2.0)
+  - iOSSnapshotTestCase/Core (6.2.0)
+  - iOSSnapshotTestCase/SwiftSupport (6.2.0):
+    - iOSSnapshotTestCase/Core
+  - JRSwizzle (1.0)
+  - KryptoKnight (0.11.0)
+  - lottie-ios (3.5.0)
+  - Mantle (1.5.8):
+    - Mantle/extobjc (= 1.5.8)
+  - Mantle/extobjc (1.5.8)
+  - MBProgressHUD (1.2.0)
+  - MultiplexStream (11.11.0):
+    - MultiplexStream/FullSDK (= 11.11.0)
+  - MultiplexStream/Core (11.11.0):
+    - OathAnalytics (~> 5.4)
+  - MultiplexStream/DataController (11.11.0):
+    - BCookieProvider (~> 4.11)
+    - MultiplexStream/Core
+    - TDOAuth (~> 1.2)
+    - YMCache (~> 2.0)
+  - MultiplexStream/FullSDK (11.11.0):
+    - MultiplexStream/Multiplexer
+    - MultiplexStream/Plugin/Ads
+    - MultiplexStream/Plugin/NewsFeed
+    - MultiplexStream/UISupport
+  - MultiplexStream/Multiplexer (11.11.0):
+    - MultiplexStream/Core
+    - MultiplexStream/DataController
+    - YMCache (~> 2.0)
+  - MultiplexStream/Plugin/Ads (11.11.0):
+    - MultiplexStream/Multiplexer
+    - SponsoredMomentsAds (< 7.0, >= 6.1)
+    - YahooVideo (< 8.0, >= 6.0)
+    - YMobileAdSDK (~> 9.5)
+  - MultiplexStream/Plugin/NCPData (11.11.0):
+    - MultiplexStream/Core
+    - MultiplexStream/Multiplexer
+    - MultiplexStream/Plugin/NewsFeed
+    - OathPrivacy (< 4.0, >= 2.8)
+  - MultiplexStream/Plugin/NewsFeed (11.11.0):
+    - MultiplexStream/Core
+    - MultiplexStream/DataController
+  - MultiplexStream/UISupport (11.11.0):
+    - MultiplexStream/Core
+  - OathAnalytics (5.19.2):
+    - OathAnalytics/Default (= 5.19.2)
+  - OathAnalytics/Comscore (5.19.2):
+    - ComScore (< 7.0, >= 6.6.0)
+    - OathAnalytics/Default
+  - OathAnalytics/Default (5.19.2):
+    - BCookieProvider (>= 4.13.1)
+    - JRSwizzle (~> 1.0)
+    - OathPrivacy (< 4.0, >= 2.13)
+    - Reachability (~> 3.1)
+    - YCrashManager (~> 4.0)
+    - YFlurrySDK/Analytics (< 13.0, >= 11.1)
+    - YFlurrySDK/TVOS (< 13.0, >= 11.1)
+    - YI13N (>= 5.13.5)
+    - YLog (~> 0.1)
+  - OathNPSSurvey (5.12.0):
+    - OathNPSSurvey/Survey (= 5.12.0)
+  - OathNPSSurvey/Survey (5.12.0):
+    - OathAnalytics
+  - OathPhoenix (6.36.0):
+    - OathPhoenix/Core (= 6.36.0)
+  - OathPhoenix/AccountInfo (6.36.0):
+    - OathPhoenix/Common
+    - OathPhoenix/Core
+  - OathPhoenix/AccountKey (6.36.0):
+    - OathPhoenix/Core
+    - OathShadowfax (< 3.0, >= 1.0)
+  - OathPhoenix/AccountManagement (6.36.0):
+    - AppAuth/Core (= 1.2.0)
+    - OathPhoenix/Common
+    - OathPhoenix/Vault
+    - OathPrivacy (< 4.0, >= 2.13.0)
+    - OUtils/Dispatch (~> 1.0)
+    - OUtils/ThreadsafeMutableCollections (~> 1.0)
+  - OathPhoenix/AccountSwitcher (6.36.0):
+    - OathPhoenix/Common
+    - OathPhoenix/Core
+    - OathPhoenix/CurrentAccountManagement
+  - OathPhoenix/Common (6.36.0)
+  - OathPhoenix/Core (6.36.0):
+    - AppAuth/ExternalUserAgent (= 1.2.0)
+    - BCookieProvider (< 5.0, >= 4.13.1)
+    - FujiDesignCommon/Views/Toast (< 4.0, >= 2.15.1)
+    - OathAnalytics (< 6.0, >= 4.0)
+    - OathPhoenix/AccountManagement
+    - OathPhoenix/Common
+    - OathPhoenix/DeviceAttestation
+    - OathPhoenix/DynamicClientRegistration
+    - OathPrivacy (< 4.0, >= 2.13.0)
+    - OUtils/Dispatch (~> 1.0)
+    - OUtils/ThreadsafeMutableCollections (~> 1.0)
+    - Reachability (~> 3.2)
+    - SDWebImage (< 6.0, >= 4.0)
+    - YAppManagement (~> 4.0)
+    - YCrashManager/Core (~> 4.0)
+    - YNotificationSDK (>= 1.0.7, ~> 1.0)
+  - OathPhoenix/CurrentAccountManagement (6.36.0):
+    - OathPhoenix/AccountManagement
+    - OUtils/Dispatch (~> 1.0)
+  - OathPhoenix/DeviceAttestation (6.36.0):
+    - OUtils/Dispatch (~> 1.0)
+    - Pincushion (~> 4.2.2)
+    - TrustKit
+  - OathPhoenix/DynamicClientRegistration (6.36.0):
+    - OathPhoenix/AccountManagement
+    - OathPhoenix/DeviceAttestation
+  - OathPhoenix/Extension (6.36.0):
+    - OathPhoenix/AccountManagement
+    - OathPhoenix/CurrentAccountManagement
+    - OathPhoenix/DynamicClientRegistration
+  - OathPhoenix/Vault (6.36.0):
+    - OUtils/Dispatch (~> 1.0)
+    - OUtils/Keychain (~> 1.0)
+  - OathPrivacy (3.2.3):
+    - OathPrivacy/Core (= 3.2.3)
+  - OathPrivacy/ACookieProvider (3.2.3):
+    - OathPrivacy/Common
+    - OUtils/Dispatch (~> 1.0)
+    - OUtils/Keychain (~> 1.0)
+    - OUtils/ThreadsafeMutableCollections (~> 1.0)
+  - OathPrivacy/Common (3.2.3):
+    - OUtils/ThreadsafeMutableCollections (~> 1.0)
+  - OathPrivacy/Core (3.2.3):
+    - KryptoKnight (>= 0.9.0)
+    - OathPrivacy/ACookieProvider
+    - OathPrivacy/Vault
+    - OUtils/Dispatch (~> 1.0)
+    - OUtils/ThreadsafeMutableCollections (~> 1.0)
+    - Pincushion (~> 4.2.2)
+    - TrustKit
+  - OathPrivacy/Vault (3.2.3):
+    - OathPrivacy/Common
+    - OUtils/Keychain (~> 1.0)
+  - OathShadowfax (1.37.0):
+    - OathShadowfax/Core (= 1.37.0)
+  - OathShadowfax/Core (1.37.0):
+    - BCookieProvider (~> 4.0)
+    - OathAnalytics (~> 5.4)
+    - OathPrivacy (< 4.0, >= 2.13)
+    - YAppManagement/Config (< 5.0, >= 4.7.1)
+    - YFlurrySDK/MarketingCore (< 13, >= 11)
+  - OathShadowfax/ServiceExtensionLogging (1.37.0):
+    - OathAnalytics (~> 5.4)
+  - OBISubscriptions (10.6.5):
+    - OpenSSL-Universal
+  - OHHTTPStubs (5.2.3):
+    - OHHTTPStubs/Default (= 5.2.3)
+  - OHHTTPStubs/Core (5.2.3)
+  - OHHTTPStubs/Default (5.2.3):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (5.2.3):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (5.2.3):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (5.2.3)
+  - OMGHTTPURLRQ/UserAgent (3.2.4)
+  - OpenSSL-Universal (1.1.1900)
+  - OUtils/Dispatch (1.3.0)
+  - OUtils/Keychain (1.3.0)
+  - OUtils/ThreadsafeMutableCollections (1.3.0):
+    - OUtils/Dispatch
+  - Pincushion (4.2.2):
+    - TrustKit (>= 2.0)
+  - PlatformConfig/AnalyticsConfig (2.6.0):
+    - OathAnalytics (< 6.0, >= 5.15.1)
+    - YAppManagement/YahooDefault (< 5.0, >= 4.14.3)
+  - PlatformConfig/BCookieProviderConfig (2.6.0):
+    - BCookieProvider (< 5.0, >= 4.13.3)
+    - YAppManagement/YahooDefault (< 5.0, >= 4.14.3)
+  - Reachability (3.2)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SDWebImage (5.15.5):
+    - SDWebImage/Core (= 5.15.5)
+  - SDWebImage/Core (5.15.5)
+  - Shimmer (1.0.2)
+  - SponsoredMomentsAds (6.40.0):
+    - SponsoredMomentsAds/Core (= 6.40.0)
+  - SponsoredMomentsAds/AR (6.40.0):
+    - SponsoredMomentsAds/Core
+  - SponsoredMomentsAds/Core (6.40.0):
+    - FujiDesignCommon (< 4, >= 3.1.0)
+    - lottie-ios
+    - OathAnalytics (>= 5.11.0)
+    - SDWebImage (< 6.0, >= 4.0)
+    - SponsoredMomentsAds/Promotions
+    - YahooVideo (< 8.0, >= 7.0)
+    - YAppManagement/Config (~> 4.11)
+    - YMobileAdSDK (< 10.0, >= 9.0)
+  - SponsoredMomentsAds/Promotions (6.40.0):
+    - BCookieProvider (~> 4.11)
+    - OathAnalytics (>= 5.11.0)
+    - Pincushion (~> 4.2)
+    - SDWebImage (< 6.0, >= 4.0)
+    - YAppManagement/Config (~> 4.11)
+  - SpotIMCore (1.18.2):
+    - RxCocoa (~> 6.5)
+    - RxSwift (~> 6.5)
+  - SQLite.swift (0.14.1):
+    - SQLite.swift/standard (= 0.14.1)
+  - SQLite.swift/standard (0.14.1)
+  - Starscream (4.0.4)
+  - SwiftLint (0.50.3)
+  - SwiftProtobuf (1.21.0)
+  - TDOAuth (1.6.3):
+    - TDOAuth/Swift (= 1.6.3)
+  - TDOAuth/Swift (1.6.3):
+    - OMGHTTPURLRQ/UserAgent
+  - TrustKit (2.0.1)
+  - VerizonMediaBullseye/Core (1.5.0):
+    - VerizonMediaBullseye/Instrumentation (= 1.5.0)
+    - YAppManagement/YahooDefault (~> 4.0)
+  - VerizonMediaBullseye/Instrumentation (1.5.0):
+    - OathAnalytics (~> 5.6)
+  - VerizonMediaBullseye/Tracking (1.5.0):
+    - VerizonMediaBullseye/Core
+    - VerizonMediaBullseye/Tracking/Instrumentation (= 1.5.0)
+  - VerizonMediaBullseye/Tracking/Instrumentation (1.5.0):
+    - VerizonMediaBullseye/Core
+    - VerizonMediaBullseye/Instrumentation
+  - VerizonMediaCommentKit (1.24.0):
+    - VerizonMediaCommentKit/Core (= 1.24.0)
+  - VerizonMediaCommentKit/Core (1.24.0):
+    - OathAnalytics (< 6.0, >= 5.4)
+    - Pincushion (~> 4.1)
+    - SpotIMCore (= 1.18.2)
+    - YCrashManager (< 5.0, >= 4.5)
+  - VerizonMediaFinanceQuoteModule/Common (1.9.1):
+    - FujiDesignCommon/Aesthetics (< 4, >= 2.33)
+    - VerizonMediaModuleKit (~> 1.11)
+    - YFinanceData/QuoteService (< 54.0, >= 51.0)
+    - YFinanceData/SparklineService (< 54.0, >= 51.0)
+    - YMCache
+  - VerizonMediaFinanceQuoteModule/PillTickerView (1.9.1):
+    - VerizonMediaFinanceQuoteModule/Common
+    - YMCache
+  - VerizonMediaGrowth/Core (1.4.1):
+    - BCookieProvider (< 5.0, >= 4.12.0)
+    - OathAnalytics (< 6.0, >= 5.13.1)
+    - OathPrivacy (< 4.0, >= 2.11)
+    - YAppManagement/Config (~> 4.4)
+    - YCrashManager (< 5.0, >= 4.6.0)
+  - VerizonMediaGrowth/ObjC (1.4.1):
+    - VerizonMediaGrowth/Core
+  - VerizonMediaInstallAttribution (0.12.0):
+    - OathAnalytics (~> 5.15)
+    - OathPhoenix/AccountSwitcher (~> 6.30)
+    - YAppManagement/Config (~> 4.14)
+  - VerizonMediaModuleKit (1.13.0)
+  - VerizonMediaRelatedStoriesModule (1.13.0):
+    - MultiplexStream/Plugin/NCPData (~> 11.0)
+    - OathAnalytics (~> 5.4)
+    - SDWebImage (< 6.0, >= 4.0)
+    - SponsoredMomentsAds (< 7.0, >= 6.15)
+    - VerizonMediaModuleKit (~> 1.0)
+  - VerizonMediaSettingsModule (1.5.0):
+    - OathAnalytics
+    - VerizonMediaModuleKit (>= 1.5)
+  - VerizonMediaVideoKit (2.11.1):
+    - VerizonMediaVideoKit/FullSDK (= 2.11.1)
+  - VerizonMediaVideoKit/Core (2.11.1):
+    - FujiDesignCommon/Aesthetics (< 4.0, >= 2.30.0)
+    - OathAnalytics (< 6.0, >= 5.4.0)
+    - Pincushion (~> 4.1)
+    - SDWebImage (< 6.0, >= 5.5)
+    - Shimmer (~> 1.0)
+    - SponsoredMomentsAds (< 7.0, >= 6.1)
+    - VerizonMediaModuleKit (~> 1.0)
+    - YahooVideo (< 8.0, >= 7.0)
+    - YAppManagement (~> 4.0)
+    - YCrashManager (< 5.0, >= 4.5)
+  - VerizonMediaVideoKit/Finance (2.11.1):
+    - VerizonMediaVideoKit/FullSDK
+  - VerizonMediaVideoKit/FullSDK (2.11.1):
+    - VerizonMediaVideoKit/Core
+    - VerizonMediaVideoKit/Resources
+  - VerizonMediaVideoKit/Resources (2.11.1)
+  - YActor/SDK (1.3.1)
+  - YahooBrowserKit (1.3.0)
+  - YahooVideo (7.12.3):
+    - YahooVideo/Yahoo (= 7.12.3)
+  - YahooVideo/Comscore (7.12.3):
+    - ComScore (< 7, >= 6)
+    - OathAnalytics/Comscore (< 6, >= 5.5.0)
+    - YahooVideo/Yahoo
+  - YahooVideo/Growth (7.12.3):
+    - VerizonMediaGrowth/ObjC (< 2, >= 0.7.0)
+    - YahooVideo/Yahoo
+  - YahooVideo/OpenMeasurement (7.12.3):
+    - YahooVideo/Yahoo
+  - YahooVideo/PALAnalytics (7.12.3):
+    - YahooVideo/OpenMeasurement
+    - YahooVideo/Yahoo
+  - YahooVideo/Yahoo (7.12.3):
+    - BCookieProvider (< 5, >= 4.1.0)
+    - DBGHTMLEntities (~> 1.0)
+    - FujiDesignCommon/Views/Toast (~> 3.2)
+    - OathAnalytics (< 6, >= 5)
+    - OathPrivacy (< 4, >= 2)
+    - YAppManagement (< 5, >= 4)
+  - YAppManagement (4.16.0):
+    - YAppManagement/YahooDefault (= 4.16.0)
+  - YAppManagement/Config (4.16.0):
+    - YActor/SDK (~> 1.2)
+    - YAppManagement/Core
+  - YAppManagement/Core (4.16.0):
+    - BCookieProvider (< 5.0, >= 4.13.3)
+    - OathAnalytics (< 6.0, >= 5.18.0)
+  - YAppManagement/YahooDefault (4.16.0):
+    - YAppManagement/Config
+    - YAppManagement/Core
+  - YCrashManager (4.7.3):
+    - YCrashManager/Core (= 4.7.3)
+    - YCrashManager/YCMPrivacyClient (= 4.7.3)
+  - YCrashManager/Core (4.7.3)
+  - YCrashManager/YCMPrivacyClient (4.7.3):
+    - OathPrivacy
+    - YCrashManager/Core
+  - YFinanceData (53.0.0):
+    - YFinanceData/public (= 53.0.0)
+  - YFinanceData/EnhancedSparklineService (53.0.0):
+    - TDOAuth (~> 1.5)
+    - YFinanceData/Keys
+    - YMCache (~> 2.0)
+  - YFinanceData/Keys (53.0.0)
+  - YFinanceData/public (53.0.0):
+    - DBGHTMLEntities (~> 1.1)
+    - Mantle (< 2.0, >= 1.5)
+    - OMGHTTPURLRQ/UserAgent
+    - Starscream (~> 4.0)
+    - SwiftProtobuf (~> 1.0)
+    - TDOAuth (~> 1.5)
+    - YFinanceData/Keys
+    - YMCache (~> 2.0)
+  - YFinanceData/QuoteService (53.0.0):
+    - DBGHTMLEntities (~> 1.1)
+    - Mantle (< 2.0, >= 1.5)
+    - OMGHTTPURLRQ/UserAgent
+    - Starscream (~> 4.0)
+    - SwiftProtobuf (~> 1.0)
+    - TDOAuth (~> 1.5)
+    - YFinanceData/Keys
+    - YMCache (~> 2.0)
+  - YFinanceData/SparklineService (53.0.0):
+    - TDOAuth (~> 1.5)
+    - YFinanceData/Keys
+    - YMCache (~> 2.0)
+  - YFinanceData/WatchlistService (53.0.0):
+    - YFinanceData/QuoteService
+  - YFlurryAdsSDK/Ads (2.6.4):
+    - YFlurrySDK/Analytics (~> 11.0)
+  - YFlurrySDK/Analytics (11.4.0)
+  - YFlurrySDK/MarketingCore (11.4.0):
+    - YFlurrySDK/Analytics
+  - YFoundationSDK/CocktailsRT (0.18.1):
+    - YFoundationSDK/RTObject
+  - YFoundationSDK/RTObject (0.18.1)
+  - YI13N (5.13.5):
+    - BCookieProvider (< 5.0, >= 4.13.2)
+    - YActor/SDK (~> 1.2)
+    - YLog
+  - YLog (0.3.2)
+  - YMAdUserAgent (1.1.0):
+    - YMAdUserAgent/FullSDK (= 1.1.0)
+  - YMAdUserAgent/FullSDK (1.1.0)
+  - YMCache (2.2.0)
+  - YMobileAdSDK (9.16.0):
+    - BCookieProvider (~> 4.12)
+    - YFoundationSDK/CocktailsRT (~> 0.15)
+    - YMAdUserAgent (~> 1.0)
+    - YMobileAdSDK/FullSDK (= 9.16.0)
+    - YOWebStringHelpers (~> 0.1)
+  - YMobileAdSDK/FullSDK (9.16.0):
+    - BCookieProvider (~> 4.12)
+    - OathAnalytics (< 6.0, >= 4.0)
+    - OathPrivacy/ACookieProvider (< 4.0, >= 2.13)
+    - YahooBrowserKit (< 2.0, >= 0.5)
+    - YahooVideo (< 8.0, >= 5.12)
+    - YAppManagement/Config (~> 4.0)
+    - YFlurryAdsSDK/Ads (~> 2.6)
+    - YFlurrySDK/Analytics (< 12.0, >= 10.0)
+    - YFoundationSDK/CocktailsRT (~> 0.15)
+    - YMAdUserAgent (~> 1.0)
+    - YOParallaxView (< 2.0, >= 1.0.1)
+    - YOWebStringHelpers (~> 0.1)
+  - YMOverride (2.5.0):
+    - YMOverride/Features (= 2.5.0)
+  - YMOverride/Features (2.5.0)
+  - YMOverrideTestSupport (2.5.0):
+    - YMOverride (= 2.5.0)
+  - YNotificationSDK (1.1.1)
+  - YOParallaxView (1.1.0)
+  - YOWebStringHelpers (0.2.0)
+  - YWebViewJavascriptBridge (7.1.0)
+
+DEPENDENCIES:
+  - ArticleKit (~> 4.30)
+  - ArticleKit/Comments (~> 4.30)
+  - ComScore (~> 6.8)
+  - DRCircularProgress (~> 1.0)
+  - ECBaseWebView (~> 4.0)
+  - EmbraceIO
+  - Feedback (~> 1.11)
+  - FGUserDefaultsInspector (~> 1.1)
+  - FujiDesignCommon/Aesthetics (~> 3.12.0)
+  - FujiDesignCommon/VectorGraphics
+  - FujiDesignCommon/Views/ActivityIndicator
+  - FujiDesignCommon/Views/Toast
+  - iOSSnapshotTestCase (~> 6.2.0)
+  - lottie-ios (~> 3.3)
+  - Mantle (~> 1.5)
+  - MBProgressHUD (~> 1.1)
+  - MultiplexStream (~> 11.3)
+  - MultiplexStream/Plugin/NCPData
+  - OathAnalytics (~> 5.0)
+  - OathAnalytics/Comscore (~> 5.0)
+  - OathNPSSurvey (~> 5.0)
+  - OathPhoenix (~> 6.17)
+  - OathPhoenix/AccountInfo (~> 6.17)
+  - OathPhoenix/AccountKey (~> 6.17)
+  - OathPhoenix/AccountSwitcher (~> 6.17)
+  - OathPhoenix/Extension (~> 6.0)
+  - OathPrivacy (~> 3.2)
+  - OathShadowfax (~> 1.8)
+  - OathShadowfax/ServiceExtensionLogging (~> 1.8)
+  - OBISubscriptions (~> 10.6)
+  - OHHTTPStubs (~> 5.0)
+  - Pincushion (~> 4.2)
+  - PlatformConfig/AnalyticsConfig (~> 2.0)
+  - PlatformConfig/BCookieProviderConfig (~> 2.0)
+  - Reachability (~> 3.2)
+  - SponsoredMomentsAds/AR (~> 6.8)
+  - SpotIMCore (from `https://github.com/SpotIM/spotim-ios-sdk-pod.git`, tag `1.18.2-xcode14.2.0`)
+  - SQLite.swift (~> 0.12)
+  - SwiftLint
+  - TDOAuth (~> 1.6.3)
+  - TrustKit (~> 2.0)
+  - VerizonMediaBullseye/Tracking
+  - VerizonMediaCommentKit (~> 1.24.0)
+  - VerizonMediaGrowth/ObjC (~> 1.0)
+  - VerizonMediaInstallAttribution (~> 0.9)
+  - VerizonMediaModuleKit (~> 1.0)
+  - VerizonMediaRelatedStoriesModule (~> 1.11)
+  - VerizonMediaVideoKit (~> 2.0)
+  - VerizonMediaVideoKit/Finance
+  - YahooVideo (~> 7.0)
+  - YahooVideo/Comscore
+  - YahooVideo/Growth
+  - YahooVideo/PALAnalytics
+  - YAppManagement/Config (~> 4.7)
+  - YCrashManager (~> 4.0)
+  - "YFinanceData (from `git@git.ouryahoo.com:YahooFinanceMobile/YFinanceData.git`)"
+  - "YFinanceData/EnhancedSparklineService (from `git@git.ouryahoo.com:YahooFinanceMobile/YFinanceData.git`)"
+  - "YFinanceData/WatchlistService (from `git@git.ouryahoo.com:YahooFinanceMobile/YFinanceData.git`)"
+  - YI13N (~> 5.1)
+  - YLog (~> 0.3.2)
+  - YMobileAdSDK (~> 9.15)
+  - YMOverride (from `https://github.com/yahoo/Override`, branch `master`)
+  - YMOverrideTestSupport (from `https://github.com/yahoo/Override`, branch `master`)
+
+SPEC REPOS:
+  "git@git.ouryahoo.com:ymobilelibs/pod-specs.git":
+    - ArticleKit
+    - BCookieProvider
+    - ECBaseWebView
+    - Feedback
+    - FujiDesignCommon
+    - KryptoKnight
+    - MultiplexStream
+    - OathAnalytics
+    - OathNPSSurvey
+    - OathPhoenix
+    - OathPrivacy
+    - OathShadowfax
+    - OBISubscriptions
+    - OUtils
+    - Pincushion
+    - PlatformConfig
+    - SponsoredMomentsAds
+    - VerizonMediaBullseye
+    - VerizonMediaCommentKit
+    - VerizonMediaFinanceQuoteModule
+    - VerizonMediaGrowth
+    - VerizonMediaInstallAttribution
+    - VerizonMediaModuleKit
+    - VerizonMediaRelatedStoriesModule
+    - VerizonMediaSettingsModule
+    - VerizonMediaVideoKit
+    - YActor
+    - YahooBrowserKit
+    - YahooVideo
+    - YAppManagement
+    - YCrashManager
+    - YFlurryAdsSDK
+    - YFlurrySDK
+    - YFoundationSDK
+    - YI13N
+    - YLog
+    - YMAdUserAgent
+    - YMobileAdSDK
+    - YNotificationSDK
+    - YOParallaxView
+    - YOWebStringHelpers
+    - YWebViewJavascriptBridge
+  trunk:
+    - ACEDrawingView
+    - AppAuth
+    - ComScore
+    - DBGHTMLEntities
+    - DRCircularProgress
+    - EmbraceIO
+    - FGUserDefaultsInspector
+    - iOSSnapshotTestCase
+    - JRSwizzle
+    - lottie-ios
+    - Mantle
+    - MBProgressHUD
+    - OHHTTPStubs
+    - OMGHTTPURLRQ
+    - OpenSSL-Universal
+    - Reachability
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - Shimmer
+    - SQLite.swift
+    - Starscream
+    - SwiftLint
+    - SwiftProtobuf
+    - TDOAuth
+    - TrustKit
+    - YMCache
+
+EXTERNAL SOURCES:
+  SpotIMCore:
+    :git: https://github.com/SpotIM/spotim-ios-sdk-pod.git
+    :tag: 1.18.2-xcode14.2.0
+  YFinanceData:
+    :git: "git@git.ouryahoo.com:YahooFinanceMobile/YFinanceData.git"
+  YMOverride:
+    :branch: master
+    :git: https://github.com/yahoo/Override
+  YMOverrideTestSupport:
+    :branch: master
+    :git: https://github.com/yahoo/Override
+
+CHECKOUT OPTIONS:
+  SpotIMCore:
+    :git: https://github.com/SpotIM/spotim-ios-sdk-pod.git
+    :tag: 1.18.2-xcode14.2.0
+  YFinanceData:
+    :commit: e6aa105695bb8fb84fb1a0f5ab6445a75378c604
+    :git: "git@git.ouryahoo.com:YahooFinanceMobile/YFinanceData.git"
+  YMOverride:
+    :commit: 8e3b787ebc49fe0199e789823bc1ccbf88905e42
+    :git: https://github.com/yahoo/Override
+  YMOverrideTestSupport:
+    :commit: 8e3b787ebc49fe0199e789823bc1ccbf88905e42
+    :git: https://github.com/yahoo/Override
+
+SPEC CHECKSUMS:
+  ACEDrawingView: fa6e8461682a54db3ac65151474fc77ef7e54fd2
+  AppAuth: bce82c76043657c99d91e7882e8a9e1a93650cd4
+  ArticleKit: aec064c5e43d6cea8c32bf61d8f6133718cbeb47
+  BCookieProvider: f418e9fcf1740024c288eb6171a3694ca77f87a1
+  ComScore: 798b89c72db925f032bc9cb3698f2cbb2fa7bfed
+  DBGHTMLEntities: 304b717b3db973d8c9c451fc5baf3f6c3d8f1bba
+  DRCircularProgress: d4e19f1d1bfb47e7c6337585748d26624ef7c7d1
+  ECBaseWebView: 52b97a16e6e89dcf19961fb3d43b7dcd3cf9b748
+  EmbraceIO: 7d59ba49dba0289e24ec92bf1d6237bc2079337d
+  Feedback: e421f44e45b1b55b08a45b034de31bd2ea3d9d4f
+  FGUserDefaultsInspector: 162df92bf5bb83603db979b1f6691aa327defa2e
+  FujiDesignCommon: b0d81fd47cc48d6d11db91038ffb7cf2a4978d98
+  iOSSnapshotTestCase: 9ab44cb5aa62b84d31847f40680112e15ec579a6
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  KryptoKnight: b1883bb99803c8df23d5a345bd3a05aeb3703c4c
+  lottie-ios: c55158d67d0629a260625cc2ded2052b829e3c3e
+  Mantle: f03b2b606c3f0cabd80214ad8a2fed6b464a7359
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MultiplexStream: 44482b9634badbf754eabd46c47199bb00b0b70a
+  OathAnalytics: 475fae5dbe4082ed3ffe1c0952e1ea9202cef54d
+  OathNPSSurvey: de82906232080427b5160dc1e468b9c5622dd92d
+  OathPhoenix: f389c1ad88ca3c75e9d728419b17f1d9018da0c9
+  OathPrivacy: 967d54dc5b1b002713fe266236551d32f211910c
+  OathShadowfax: 007208f8f9cf7fa27de71bf89dc66c7c0a66a902
+  OBISubscriptions: f3374a7b93ff5c096c2a9a2156526bd9c6757937
+  OHHTTPStubs: e238cd5b66d8efa51c861db45895de8fe079f4a7
+  OMGHTTPURLRQ: 9ac96bdf5c90a33f75836630729ea1adc312a9ed
+  OpenSSL-Universal: 84efb8a29841f2764ac5403e0c4119a28b713346
+  OUtils: 934d61859e821e356dc90b6e09f1955ff05f6cb1
+  Pincushion: 7a172e3c783914f9cc39e04eb50680b79ffbbe1a
+  PlatformConfig: 07ae9cb86f2c944acd3501288e45f25acdc3629a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SDWebImage: fd7e1a22f00303e058058278639bf6196ee431fe
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  SponsoredMomentsAds: 250e7103aa2d0cc5b999c48ad930911f1f1e1ab8
+  SpotIMCore: af56ea63dc94c0f3beaa0b1b15a79469afb836d8
+  SQLite.swift: 2992550ebf3c5b268bf4352603e3df87d2a4ed72
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SwiftLint: 77f7cb2b9bb81ab4a12fcc86448ba3f11afa50c6
+  SwiftProtobuf: afced68785854575756db965e9da52bbf3dc45e7
+  TDOAuth: ac04f9ce600f38ba534f555deddb3f5d95dd06bc
+  TrustKit: dad4c3a08248c21fcb9a3b5be3c2e2b9d4f9b973
+  VerizonMediaBullseye: 1a1824816824df8b165a4bf30c9bc6097f0564e0
+  VerizonMediaCommentKit: 6e72c55846d0ecdf021c8c4f99f6f0522396d91b
+  VerizonMediaFinanceQuoteModule: f211ab6f377a05599a8a19876857033faaa3d531
+  VerizonMediaGrowth: cd4c486274bc21a32efafa77ef1c2286bbde3676
+  VerizonMediaInstallAttribution: 19ccd22d4042068464a6651422738831c31d6083
+  VerizonMediaModuleKit: 42a5956638ba130575ba7cdcb2adee13a4d533c2
+  VerizonMediaRelatedStoriesModule: 67a7a9dc439dda67f78b8a76fdee41a195b3384f
+  VerizonMediaSettingsModule: 7bbd5d22293dd3418c06fd3b21bd74ffb03c035e
+  VerizonMediaVideoKit: 66cf1db6bc0336402647350ea8a93b001cd949c1
+  YActor: 3ca0a3ecd8f0942a41a7ff339fa8187ff5b8c1ac
+  YahooBrowserKit: 1e0a1ee7be9afc6df51ce8f904777c2fc4cb01ba
+  YahooVideo: 5d89dbadcab3dd83fc93766d4dfbb0af14dc7869
+  YAppManagement: 8db49a91354ce7f049358d5ccfec981099a2847b
+  YCrashManager: 42e38994816b33be93fa8c6108d28e645aaa9a53
+  YFinanceData: e205ebeaab36753fde89db4197a6761e6f0bdb40
+  YFlurryAdsSDK: 7a8d43a0c57c401f0e79ae6cd19512818c503951
+  YFlurrySDK: dd952df89a38b81af7f96746a9fc9725b853016b
+  YFoundationSDK: b90e88a0ffb730f09267df64168de90e2eecc080
+  YI13N: 242b27501496ce652ae9ac1dde38d8859839e842
+  YLog: 599ae7eb285195d98666e6896360b07466dbe2fd
+  YMAdUserAgent: 3af1f1aac44f73e37e095e3f379babd7f35b189b
+  YMCache: c13bd71b3ea0fe53a15bf41a070f6de571d552c6
+  YMobileAdSDK: 33e722700f10af40e4d3592b9e184b8d5a78be76
+  YMOverride: 0904d1c68a0173989b41e3f1395732e6d112c85c
+  YMOverrideTestSupport: 8d65da5e79c175dba4ce1fb818dba6309d68b1df
+  YNotificationSDK: 61bd512de3ec80c74024890468a3bbb9f20b9e6f
+  YOParallaxView: 9d8a02fbbfb88a032b55aee37ea8c26057af3364
+  YOWebStringHelpers: 46c7431a06c8c639716e4e0df2dce13ed23f7775
+  YWebViewJavascriptBridge: a01a3e52476246cf25999d2c1491127a20bd675d
+
+PODFILE CHECKSUM: 926676515a50beed5e07f88c02d52a2fc37146ac
+
+COCOAPODS: 1.11.3
