@@ -10,6 +10,15 @@
       }
     },
     {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire",
+      "state" : {
+        "revision" : "78424be314842833c04bc3bef5b72e85fff99204",
+        "version" : "5.6.4"
+      }
+    },
+    {
       "identity" : "actors_ios",
       "kind" : "remoteSourceControl",
       "location" : "git@git.ouryahoo.com:ymobilelibs/actors_ios.git",
@@ -25,15 +34,6 @@
       "state" : {
         "revision" : "1740f48bb7fa6d966d06ade5e18164934aff5d44",
         "version" : "9.15.1"
-      }
-    },
-    {
-      "identity" : "alamofire",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Alamofire/Alamofire",
-      "state" : {
-        "revision" : "78424be314842833c04bc3bef5b72e85fff99204",
-        "version" : "5.6.4"
       }
     },
     {
